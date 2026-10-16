@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.95" y2="1">
+   <stop offset="0" stop-color="#0b5f98"/>
+   <stop offset="0.42" stop-color="#0b2c5d"/>
+   <stop offset="1" stop-color="#08162f"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".25" cy=".07" r=".98">
+   <stop offset="0" stop-color="#1bd2ff" stop-opacity=".42"/>
+   <stop offset=".48" stop-color="#1e4ec9" stop-opacity=".15"/>
+   <stop offset="1" stop-color="#060c25" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="frame" x1="0" y1="0" x2=".9" y2="1">
+   <stop offset="0" stop-color="#48ecff"/>
+   <stop offset=".55" stop-color="#0aaaf5"/>
+   <stop offset="1" stop-color="#1264e0"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#108adc"/>
+   <stop offset="1" stop-color="#06438f"/>
+  </linearGradient>
+  <linearGradient id="wifi" x1="0" y1="0" x2=".1" y2="1">
+   <stop offset="0" stop-color="#f7fdff"/>
+   <stop offset=".54" stop-color="#a8d7ff"/>
+   <stop offset="1" stop-color="#56a1ff"/>
+  </linearGradient>
+  <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.8">
+   <feGaussianBlur stdDeviation="24"/>
+  </filter>
+  <filter id="fineShadow" x="-.4" y="-.4" width="1.8" height="1.8">
+   <feGaussianBlur stdDeviation="10"/>
+  </filter>
+  <clipPath id="rounded"><rect x="44" y="42" width="936" height="936" rx="215"/></clipPath>
+ </defs>
+ <rect x="64" y="64" width="896" height="896" rx="207" fill="#010819" opacity=".55" filter="url(#shadow)"/>
+ <g clip-path="url(#rounded)">
+  <rect x="44" y="42" width="936" height="936" rx="215" fill="url(#bg)"/>
+  <rect x="44" y="42" width="936" height="936" rx="215" fill="url(#glow)"/>
+  <path d="M 70 72 H 949" stroke="#ffffff" stroke-opacity=".22" stroke-width="5"/>
+  <circle cx="200" cy="198" r="340" fill="#02a9f5" opacity=".08"/>
+  <!-- Display frame: tablet silhouette -->
+  <rect x="168" y="175" width="652" height="656" rx="90" fill="#00102c" opacity=".5" filter="url(#fineShadow)"/>
+  <rect x="182" y="166" width="635" height="672" rx="86" fill="none" stroke="url(#frame)" stroke-width="43"/>
+  <rect x="225" y="209" width="551" height="583" rx="48" fill="url(#screen)" opacity=".75"/>
+  <path d="M 264 267 H 734 V 600 C 630 518 498 565 381 642 L 264 733 Z" fill="#39c1ff" opacity=".09"/>
+  <rect x="425" y="186" width="145" height="24" rx="12" fill="#022954" opacity=".95"/>
+  <!-- dark halo for wifi, keeping glyph legible -->
+  <circle cx="646" cy="642" r="245" fill="#081b42" opacity=".98"/>
+  <circle cx="646" cy="642" r="236" fill="#103170" opacity=".32"/>
+  <!-- WiFi bars -->
+  <path d="M 438 604 Q 648 404 855 604" fill="none" stroke="#031333" stroke-width="90" stroke-linecap="round"/>
+  <path d="M 438 604 Q 648 404 855 604" fill="none" stroke="url(#wifi)" stroke-width="66" stroke-linecap="round"/>
+  <path d="M 525 684 Q 648 571 770 684" fill="none" stroke="#041839" stroke-width="85" stroke-linecap="round"/>
+  <path d="M 525 684 Q 648 571 770 684" fill="none" stroke="url(#wifi)" stroke-width="60" stroke-linecap="round"/>
+  <circle cx="646" cy="772" r="46" fill="#041839"/>
+  <circle cx="646" cy="772" r="35" fill="#8ec6ff"/>
+ </g>
+ <rect x="46" y="44" width="932" height="932" rx="213" fill="none" stroke="#a5ddff" stroke-opacity=".13" stroke-width="3"/>
+</svg>

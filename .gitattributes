@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.swift text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.command text eol=lf
+*.svg text eol=lf
+*.png binary

@@ -1,0 +1,34 @@
+# macOS / IDE
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.vscode/
+
+# Swift build results
+.build/
+.swiftpm/
+DerivedData/
+build/
+dist/
+*.app/
+*.dmg
+*.pkg
+
+# Generated release archives: attach to GitHub Releases instead
+*.zip
+*.tar.gz
+
+# Logs and runtime settings
+*.log
+settings.json
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# Python helpers or local scratch
+__pycache__/
+*.pyc
