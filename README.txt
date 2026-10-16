@@ -2,6 +2,8 @@ Android Screen 2.3.2 — macOS 12+ (Apple Silicon и Intel)
 ========================================================
 
 Графическая оболочка для scrcpy: трансляция экрана Android на Mac по Wi-Fi.
+Проект scrcpy: https://github.com/Genymobile/scrcpy
+Android Screen — независимая оболочка, неофициальный проект.
 
 УСТАНОВКА
 1. Распакуйте архив целиком.

@@ -2,6 +2,13 @@
 
 **Версия 2.3.2** — графическая оболочка на SwiftUI для [scrcpy](https://github.com/Genymobile/scrcpy): отображение экрана Android на Mac и управление мышью и клавиатурой через ADB по Wi-Fi.
 
+## На основе scrcpy
+
+**Android Screen** — независимая графическая оболочка для macOS, использующая [scrcpy](https://github.com/Genymobile/scrcpy) для трансляции экрана и управления Android-устройствами. **scrcpy** — отдельный проект с открытым исходным кодом, поддерживаемый своими разработчиками; Android Screen не является официальным клиентом или частью scrcpy.
+
+- [Официальный репозиторий scrcpy](https://github.com/Genymobile/scrcpy)
+- [Релизы scrcpy](https://github.com/Genymobile/scrcpy/releases)
+
 - macOS 12+, Apple Silicon или Intel;
 - поиск уже доступных Wi-Fi-устройств через ADB;
 - настройка сетевого ADB через USB прямо в приложении;
